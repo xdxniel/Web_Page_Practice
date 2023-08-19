@@ -1,5 +1,25 @@
 .chameleonHeader{
   width: 100%;
   height: 100vh;
-  background-color: #027907;
+  background: rgb(2,121,7);
+  background: linear-gradient(339deg, rgba(2,121,7,1) 2%, rgba(2,121,7,1) 52%, rgba(73,233,109,1) 97%);
+}
+.triangle {
+  position: relative;
+  background: rgb(2,121,7);
+  background: linear-gradient(339deg, rgba(2,121,7,1) 2%, rgba(2,121,7,1) 52%, rgba(73,233,109,1) 97%);
+  height: 100vh;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 46px 46px 0 46px;
+  border-color: #027907 transparent transparent transparent;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
 }

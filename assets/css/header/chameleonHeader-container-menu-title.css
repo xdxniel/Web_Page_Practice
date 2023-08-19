@@ -1,3 +1,5 @@
 .chameleonHeader__container-menu-title{
-  
+  font-family: var(--title-font-sec);
+  color: var(--color-font);
+  font-size: 2rem;
 }

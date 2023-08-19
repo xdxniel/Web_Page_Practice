@@ -1,0 +1,6 @@
+.chameleonHeader__page-container-title{
+  font-family: var(--title-font-sec);
+  color: var(--color-font);
+  font-size: 5rem;
+  padding-bottom: 1rem;
+}
