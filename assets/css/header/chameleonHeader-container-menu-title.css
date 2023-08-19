@@ -1,45 +1,45 @@
 .chameleonHeader__container-menu-title{
   font-family: var(--title-font-sec);
   color: var(--color-font);
-  font-size: 2rem;
+  font-size: 2.5rem;
   animation: rainbow 2.5s linear;
   animation-iteration-count: infinite;
 }
 @keyframes rainbow {
   100%, 0% {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
   }
   8% {
-    color: rgb(255, 127, 0);
+    color: #F2FFF7;
   }
   16% {
-    color: rgb(255, 255, 0);
+    color: #BBFED2;
   }
   25% {
-    color: rgb(127, 255, 0);
+    color: #83F9A4;
   }
   33% {
-    color: rgb(0, 255, 0);
+    color: #49E96D;
   }
   41% {
-    color: rgb(0, 255, 127);
+    color: #14CC33;
   }
   50% {
-    color: rgb(0, 255, 255);
+    color: #07A318;
   }
   58% {
-    color: rgb(0, 127, 255);
+    color: #027907;
   }
   66% {
-    color: rgb(0, 0, 255);
+    color: #015000;
   }
   75% {
-    color: rgb(127, 0, 255);
+    color: #032600;
   }
   83% {
-    color: rgb(255, 0, 255);
+    color: #30d621;
   }
   91% {
-    color: rgb(255, 0, 127);
+    color: #8bc586;
   }
 }
