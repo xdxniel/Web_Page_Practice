@@ -1,0 +1,4 @@
+.chameleonHeader__container-menu-list{
+  display: flex;
+  flex-direction: row;
+}
