@@ -1,0 +1,7 @@
+.chameleonMain__container-mission-title{
+  font-family: var(--title-font);
+  padding-bottom: 2rem;
+  font-size: 5rem;
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+}
