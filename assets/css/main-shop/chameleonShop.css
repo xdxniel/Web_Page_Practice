@@ -1,0 +1,6 @@
+.chameleonShop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5rem 3rem 0 3rem;
+}
