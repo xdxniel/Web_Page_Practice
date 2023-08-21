@@ -1,0 +1,4 @@
+.chameleonFooter{
+  background: rgb(2,121,7);
+  background: linear-gradient(180deg, rgba(2,121,7,1) 14%, rgba(20,204,51,1) 100%);
+}
