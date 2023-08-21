@@ -1,0 +1,5 @@
+.chameleonShop__aside-illustration{
+  transform: scaleX(-1);
+  width: 10rem;
+  padding-bottom: 3rem;
+}
