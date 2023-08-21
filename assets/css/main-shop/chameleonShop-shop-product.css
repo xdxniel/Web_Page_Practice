@@ -1,0 +1,9 @@
+.chameleonShop__shop-product{
+  flex: calc(25% - 20px);
+  border: 1px solid #dddddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}

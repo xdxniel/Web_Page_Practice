@@ -1,0 +1,10 @@
+.chameleonShop__shop-product-paragraph{
+  padding-bottom: 1rem;
+  font-family: var(--paragraph-font);
+}
+.chameleonShop__aside-copyright{
+  padding-top: 3rem;
+  font-size: 0.7rem;
+  align-self: center;
+  justify-self: center;
+}

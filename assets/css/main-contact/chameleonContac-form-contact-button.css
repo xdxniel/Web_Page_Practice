@@ -1,0 +1,18 @@
+.chameleonContact__form-contact-button{
+  font-family: var(--paragraph-font);
+  width: 4rem;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 800;
+  font-size: 1rem;
+  border-radius: 8px;
+  align-self: center;
+  margin-top: 1rem;
+}
+.chameleonContact__form-contact-button:hover{
+  cursor: pointer;
+  animation: rainbow-bg 1.5s linear;
+  animation-iteration-count: infinite;
+  transform: scale(1.2);
+  transition: 1.5s;
+}
