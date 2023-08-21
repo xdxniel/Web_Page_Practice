@@ -40,6 +40,15 @@
     <link rel="stylesheet" href="assets/css/main-shop/chameleonShop-aside-paragraph.css">
     <link rel="stylesheet" href="assets/css/main-contact/chameleonContact.css">
     <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-title.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-txt.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form-contact.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form-contact-paragraph.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form-contact-label.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form-contact-input.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContac-form-contact-button.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form-map.css">
+    <link rel="stylesheet" href="assets/css/main-contact/chameleonContact-form-map-title.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -164,10 +173,10 @@
       </div>
       <section class="chameleonContact">
         <h2 class="chameleonContact__title">Contact</h2>
+        <h3 class="chameleonContact__txt">Do you want to get in contact with us?</h3>
         <article class="chameleonContact__form">
-          <h3 class="chameleonContact__form-title">Do you want to get in contact with us?</h3>
-          <p class="chameleonContact__form-paragraph">Please fill out this form</p>
           <form class="chameleonContact__form-contact">
+            <h4 class="chameleonContact__form-contact-paragraph">Please fill out this form</h4>
             <label class="chameleonContact__form-contact-label" for="nameandlastname">Name and last name</label>
             <input class="chameleonContact__form-contact-input" type="text" id="nameandlastname" placeholder="Tyler Durden" class="chameleonContact" required>
             <!---->
@@ -178,11 +187,18 @@
             <input class="chameleonContact__form-contact-input" type="email" id="mail" placeholder="weawesome@dominion.com" required>
             <!---->
             <label class="chameleonContact__form-contact-label" for="message">Message</label>
-            <textarea class="chameleonContact__form-contact-input" id="message" cols="30" rows="10" placeholder="Type your message"></textarea>
+            <textarea class="chameleonContact__form-contact-input" id="message" style="width: 30rem; height: 7rem;" placeholder="Type your message"></textarea>
+            <button class="chameleonContact__form-contact-button button__transform">Send</button>
           </form>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.3947212775!2d-
-          74.27262471553745!3d4.648620642450054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses
-          -419!2sco!4v1692639043984!5m2!1ses-419!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          <div class="chameleonContact__form-map">
+            <h3 class="chameleonContact__form-map-title">Visit Us!</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d136710.
+            712560205!2d-80.33810458835973!3d25.787539879331323!2m3!1f0!2f0!3f0!3m2!1
+            i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2s
+            Miami%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1692646378641!5m2!1ses-419!2sco" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
           </iframe>
         </article>
       </section>
