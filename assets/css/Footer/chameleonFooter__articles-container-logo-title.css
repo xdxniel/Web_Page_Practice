@@ -1,0 +1,8 @@
+.chameleonFooter__articles-container-logo-title{
+  font-family: var(--title-font-sec);
+  font-size: 4rem;
+  color: #ffffff;
+  animation: rainbow 2.5s linear;
+  animation-iteration-count: infinite;
+  margin-bottom: 1rem;
+}

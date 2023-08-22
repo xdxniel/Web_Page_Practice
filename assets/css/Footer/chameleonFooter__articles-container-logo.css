@@ -1,0 +1,6 @@
+.chameleonFooter__articles-container-logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1rem;
+}

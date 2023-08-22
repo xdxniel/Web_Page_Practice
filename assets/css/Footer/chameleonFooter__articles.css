@@ -1,0 +1,7 @@
+.chameleonFooter__articles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 8rem;
+  padding-bottom: 2rem;
+}
