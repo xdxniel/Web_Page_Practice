@@ -1,5 +1,12 @@
 .chameleonHeader__container-menu{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+  position: fixed;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-evenly; /* En lugar de space-evenly */
+  /* ...otros estilos... */
 }
