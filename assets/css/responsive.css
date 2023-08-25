@@ -1,3 +1,72 @@
-@media screen and(min-width: 414px) {
-  
+@media screen and (min-width: 375px) {
+  .chameleonHeader__container-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .chameleonHeader__container-menu-title{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+  }
+  .chameleonHeader__page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .chameleonHeader__page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .chameleonHeader__page-logo{
+    width: 10rem;
+    padding-right: 0;
+    padding-top: 5rem;
+  }
+  .chameleonHeader__page-container-title{
+    font-size: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .chameleonHeader__page-container-paragraph{
+    font-size: 1.32rem;
+    text-align: center;
+  }
+  .chameleonMain__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .chameleonMain__container-mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .chameleonMain__container-mission-paragraph{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 0 1rem 0 1rem;
+  }
+  .chameleonMain__container-illustration{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .chameleonMain__container-illustration-img{
+    width: 18rem;
+  }
+  .chameleonMain__container-illustration-copyright{
+    font-size: 0.5rem;
+    width: min-content;
+    padding: 0;
+  }
 }
