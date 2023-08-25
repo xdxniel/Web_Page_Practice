@@ -177,7 +177,7 @@
     margin: 2rem;
   }
   .chameleonFooter__articles{
-    padding-top: 20rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
   }
@@ -201,6 +201,10 @@
   .chameleonFooter__articles-container-logo-paragraph{
     font-size: 1rem;
   }
+  .mapa{
+    width: 300px;
+    height: 200px;
+  }
 }
 @media screen and (max-width:1012px) {
   .chameleonContact__form{
@@ -210,7 +214,8 @@
     align-items: center;
   }
   .chameleonFooter{
-    padding-top: 20rem;
+    padding-top: 12rem;
+
   }
   .chameleonFooter__articles-container-logo-title{
     font-size: 3rem;
