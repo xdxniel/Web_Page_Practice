@@ -176,4 +176,29 @@
     font-size: 1.8rem;
     margin: 2rem;
   }
+  .chameleonFooter__articles{
+    padding-top: 20rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .chameleonFooter__articles-container{
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 2rem;
+  }
+  .chameleonFooter__articles-bye{
+    padding-bottom: 2rem;
+  }
+  .chameleonFooter__articles-bye-paragraph{
+    font-size: 2.3rem;
+  }
+  .chameleonFooter__articles-container-illustration{
+    width: 7rem;
+  }
+  .chameleonFooter__articles-container-logo-title{
+    font-size: 2.5rem;
+  }
+  .chameleonFooter__articles-container-logo-paragraph{
+    font-size: 1rem;
+  }
 }
