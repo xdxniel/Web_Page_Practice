@@ -69,4 +69,69 @@
     width: min-content;
     padding: 0;
   }
+  .chameleonShop{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 3rem 5rem 3rem;
+  }
+  .shopTitle__h2{
+    font-size: 3rem;
+  }
+  .chameleonShop__shop-product{
+    width: 5rem;
+  }
+  .chameleonShop__shop-product-item{
+    width: 5rem;
+  }
+  .chameleonShop__shop-product-title{
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  .chameleonShop__shop-product-paragraph{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+  .chameleonShop__shop-product-button{
+    width: 3rem;
+    font-size: 1rem;
+  }
+  .chameleonShop__aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3rem 3rem 0 3rem;
+    width: 100%;
+    align-items: center;
+  }
+  .chameleonShop__aside-paragraph{
+    font-size: 0.9rem;
+    text-align: center;
+    width: 40%;
+    padding: 0;
+    margin: 0;
+  }
+  .chameleonShop__aside-illustration{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+    /*items child*/
+  .item:nth-child(1) {
+    order: 2; /* Cambia el orden del primer elemento al último */
+  }
+  
+  .item:nth-child(2) {
+    order: 1; /* Cambia el orden del segundo elemento al primero */
+  }
+  
+  .item:nth-child(3) {
+    order: 3; /* Cambia el orden del tercer elemento al segundo */
+  }
+  /*items child*/
+  .chameleonShop__aside-copyright{
+    font-size: 0.6rem;
+    width: min-content;
+    padding: 0;
+    margin: 0;
+  }
 }
