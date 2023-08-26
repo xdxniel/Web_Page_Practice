@@ -1,5 +1,5 @@
 .chameleonMain__container-mission{
   display: flex;
   flex-direction: column;
-  margin: 0 10rem;
+  padding: 0 0 0 10rem;
 }

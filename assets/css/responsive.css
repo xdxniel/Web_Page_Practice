@@ -72,7 +72,7 @@
   .chameleonShop{
     display: flex;
     flex-direction: column;
-    margin: 5rem 3rem 5rem 3rem;
+    
   }
   .shopTitle__h2{
     font-size: 3rem;
